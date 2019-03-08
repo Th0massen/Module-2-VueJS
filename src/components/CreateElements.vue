@@ -26,9 +26,9 @@ export default {
 .Element{
     margin: 35px auto;
     padding: 5px;
-    width: 50%;
+    width: 350px;
     border: 0.5px solid black;
-    text-align: center;
+    box-shadow: 2px 2px 15px 2px;
     background-color: white;
 }
 h2{

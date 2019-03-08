@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <div id="Logo" >
+      <img alt="Vue logo" src="./assets/logo.png">
+    </div>
     <FetchComponent/>
   </div>
 </template>
@@ -19,6 +21,12 @@ export default {
 <style>
   body{
     margin: 0; padding: 0;
+  }
+  #Logo{
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
   #app{
     text-align: center;
